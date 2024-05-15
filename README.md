@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Random e Pseudo Random
 
 
@@ -13,5 +13,4 @@ I generatori di numeri pseudo-casuali (PRNG) producono sequenze che sembrano cas
 ### TRNG
 I veri generatori di numeri casuali (TRNG) si differenziano dai PRNG perché estraggono casualità da fenomeni fisici, come variazioni nei movimenti del mouse o nel tempo tra la pressione dei tasti. Fonti come radioattività o rumore atmosferico sono utilizzate per garantire casualità autentica senza buffering del sistema operativo. Il servizio HotBits e RANDOM.ORG sono esempi di TRNG basati su radioattività e rumore atmosferico rispettivamente. Altri approcci includono l'uso del rumore di fondo o fenomeni visivi come lampade lava. Tuttavia, la generazione di numeri casuali reali richiede l'identificazione di piccoli cambiamenti imprevedibili nei dati. Rispetto ai PRNG, i TRNG sono inefficienti e non deterministici, producendo numeri senza possibilità di riproduzione e senza periodo definito.
 
-=======
 

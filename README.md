@@ -1,94 +1,76 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Titolo Pagina</title>
-	<meta name="author" content="Nome Cognome">
-	<meta name="copyright" content="2023">
-	<meta name="description" content="Titolo Pagina: descrizione">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-		body {
-			margin: 2em 1em;
-		}
-		section {
-			display: block;
-			border-top: 1px solid white;
-		}
-		p {
-			margin: 0;
-		}
-		h3 {
-			margin: 0;
-		}
-		.contenuto {
-			max-width: 40em;
-			padding-left: 1em;
-		}
-		.testata {
-			color: white;
-			display: block;
-			background-color: rgb(0, 0, 0);
-			height: 2em;
-			cursor: pointer;
-			padding: 0 0 0 1em;
-		}
-		.chiuso {
-			display: none;
-		}
-	</style>
-</head>
-<body>
+*, *:before, *:after {
+	box-sizing: border-box;
+}
 
-	<section>
-		<h3 class="testata">Sezione A</h3>
-		<div class="contenuto chiuso">
-			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sut in culpa qui officia deserunt mollit anim id est laborum.<br>
-			Or incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. isi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-			</p>
-		</div>
-	</section>
+body {
+	background-color: rgb(240, 240, 240); /* white, #FFFFFF */
+	padding: 2em;
+	margin: 0;
+	font-family: "Times New Roman", Times, serif;
+}
 
-	<section>
-		<h3 class="testata">Sezione B</h3>
-		<div class="contenuto chiuso">
-			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sut in culpa qui officia deserunt mollit anim id est laborum.<br>
-			Or incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. isi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-			</p>
-		</div>
-	</section>
+p {
+	margin: 0 0 1em 0;
+	max-width: 30em;
+}
 
-	<section>
-		<h3 class="testata">Sezione C</h3>
-		<div class="contenuto chiuso">
-			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sut in culpa qui officia deserunt mollit anim id est laborum.<br>
-			Or incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. isi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-			</p>
-		</div>
-	</section>
+h1 {
+	margin: 0;
+	font-size: 3em;
+}
 
-	<section>
-		<h3 class="testata">Sezione D</h3>
-		<div class="contenuto chiuso">
-			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sut in culpa qui officia deserunt mollit anim id est laborum.<br>
-			Or incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. isi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
-			</p>
-		</div>
-	</section>
+h4 {
+	margin: 0;
+}
 
-	<script>
-		document.querySelectorAll(".testata").forEach( el => {
-			el.addEventListener('click', evt => {
-				evt.target.nextElementSibling.classList.toggle("chiuso")
-			})
-		})
-	</script>
-</body>
+iframe {
+	margin: 0;
+	display: block;
+	border: none;
+}
+
+header,
+section {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	margin-bottom: 2em;
+	padding-top: 0.25em;
+}
+
+.filetto {
+	border-top: solid 1px black;
+}
+
+.titolo-sezione {
+	margin-right: 1em;
+}
+
+.contenitore {
+	max-width: 54em;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* -- breakpoint: schermi piccoli, larghezza massima 500 pixel -- */
+
+@media only screen and (max-width: 600px) {
+	header,
+	section {
+		grid-template-columns: 1fr;
+	}
+	.contenitore {
+		width:100%;
+	}
+	.contenuto-sezione {
+		width: 100%;
+	}
+	.titolo-sezione {
+		width: 100%;
+	}
+	img {
+		width: 100%;
+	}
+}
